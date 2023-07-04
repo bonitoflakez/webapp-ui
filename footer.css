@@ -1,0 +1,27 @@
+.content-wrapper {
+  flex: 1;
+  min-height: calc(100vh - 80px); /* Adjust the value as needed */
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #f0f0f0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info p {
+  margin: 5px 0;
+}
+
+.footer-right img {
+  width: 100px;
+  height: auto;
+}
