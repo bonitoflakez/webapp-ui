@@ -1,13 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Quicksand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
-body {
+html, body {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: "Segoe UI", Tahoma, 'Poppins', Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
+
 #home-content {
   width: 100%;
   text-align: center;
@@ -18,25 +17,21 @@ body {
 #home-content div {
   position: relative;
 }
-#home-content h2   {
+#home-content h2 {
   position: absolute;
   font-size: 5.5rem;
   width: 75%;
   margin: 0.8rem;
   left: 2rem;
-  font-family: "poppins", sans-serif;
   color: white;
   text-shadow: 2px 2px 4px #000000;
   opacity: 0;
   transition: all 1000ms ease;
-  
- 
 }
-#home-content .fade{
+#home-content .fade {
   opacity: 1 !important;
 }
 #home-content button {
-  font-family: "Poppins";
   padding: 5px;
   font-size: 16px;
   background-color: white;

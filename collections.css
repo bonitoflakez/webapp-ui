@@ -116,7 +116,6 @@
   border-radius: 50px;
   cursor: pointer;
   transition: 0.5s;
-  font-family: 'Poppins';
 }
 
 .pagination-buttons button:hover {
